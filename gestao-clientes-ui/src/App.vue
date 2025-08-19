@@ -2,7 +2,6 @@
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
 
-// --- TODA A LÓGICA JAVASCRIPT CONTINUA EXATAMENTE A MESMA ---
 
 const clientes = ref([])
 const loading = ref(true)
@@ -171,9 +170,8 @@ async function salvarEdicao(clienteId) {
 </template>
 
 <style>
-/* Esta tag de estilo NÃO tem 'scoped', então ela se aplica a toda a página */
 :root {
-  color-scheme: light; /* Força o tema claro */
+  color-scheme: light; 
 }
 
 body {
@@ -185,7 +183,7 @@ body {
     'Segoe UI',
     Roboto,
     sans-serif;
-  background-color: #f3f4f6; /* Fundo cinza claro para a PÁGINA INTEIRA */
+  background-color: #f3f4f6; 
   color: #111827;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -194,14 +192,14 @@ body {
 #app {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Alinha no topo */
+  align-items: flex-start; 
   min-height: 100vh;
-  padding-top: 5rem; /* Espaço no topo */
+  padding-top: 5rem; 
 }
 </style>
 
 <style scoped>
-/* Esta tag de estilo TEM 'scoped', então só se aplica a este componente */
+
 
 #app-container {
   width: 100%;
@@ -278,7 +276,7 @@ tbody tr:hover {
 
 input {
   width: 100%;
-  box-sizing: border-box; /* Garante que padding não afete a largura */
+  box-sizing: border-box; 
   padding: 12px;
   border: 1px solid #d1d5db;
   border-radius: 6px;
@@ -339,10 +337,9 @@ button:hover {
 td > div {
   display: flex;
   flex-direction: row;
-  gap: 8px; /* Adiciona um espaço consistente entre os botões */
+  gap: 8px; 
 }
 
-/* Ajuste para que os botões não tenham margem desnecessária */
 button {
   margin-right: 0;
 }
