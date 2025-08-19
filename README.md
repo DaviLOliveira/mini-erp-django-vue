@@ -8,8 +8,7 @@ Aplicação web full-stack para gerenciamento de clientes, desenvolvida para dem
 
 ## 📸 Demonstração
 
-![Screenshot da Aplicação](https://raw.githubusercontent.com/DaviLOliveira/mini-erp-django-vue/main/docs/screenshot.png)
-*(Instrução para você: Siga o Passo 4 abaixo para fazer o screenshot aparecer)*
+[![Screenshot da Aplicação](https://raw.githubusercontent.com/DaviLOliveira/mini-erp-django-vue/main/docs/screenshot.png)](#demonstração)
 
 ## ✨ Funcionalidades
 
